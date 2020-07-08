@@ -1,0 +1,21 @@
+.header {
+  height: 120px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  flex: 1;
+}
+
+.header__title {
+  font-family: 'Parisienne', cursive;
+  font-size: 4rem;
+  flex: 4;
+  text-align: center;
+}
+
+.header__padding {
+  flex: 1;
+}
