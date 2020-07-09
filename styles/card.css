@@ -1,9 +1,9 @@
 .card {
   display: flex;
-  border: 1px solid black;
   border-radius: 5px;
   padding: 0.5rem;
-  margin: 0.5rem 0;
+  background: #E3D3E4;
+  box-shadow: 2px 2px 4px #000
 }
 
 .card--left,
@@ -21,6 +21,7 @@
 
 .card__image {
   width: 14rem;
+  border-radius: 10px;
 }
 
 .card__header {
@@ -38,8 +39,8 @@
 }
 
 .card__label {
-  font-size: 0.8rem;
-  color: #666;
+  font-size: 0.7rem;
+  color: #333;
   display: block;
 }
 

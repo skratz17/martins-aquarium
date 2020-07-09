@@ -1,0 +1,10 @@
+.fish-list__header {
+  color: #fff;
+}
+
+.fish__species, 
+.fish__length, 
+.fish__location,
+.fish__diet {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,10 @@
+.quote-list__header {
+  color: #fff;
+}
+
+.quote__text {
+  flex-basis: 90%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}

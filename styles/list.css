@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 1rem;
 }
 
 .list__header {
@@ -10,16 +11,21 @@
   font-size: 2rem;
 }
 
+.list-item {
+  margin: 0.5rem;
+}
+
 .list--1-col .list-item {
   flex-basis: 100%;
 }
 
 .list--2-col .list-item {
-  flex-basis: 49%;
+  flex-basis: 48%;
 }
 
 /* Force final element in list to left-align by creating pseudoelement at end of list */
 .list--2-col::after {
   content: "";
-  flex-basis: 49%;
+  flex-basis: 48%;
+  margin: 0.5rem;
 }
