@@ -6,11 +6,13 @@
   margin: 0.5rem 0;
 }
 
-.card--left {
+.card--left,
+.card--reversed .card--right {
   flex: 1;
 }
 
-.card--right {
+.card--right,
+.card--reversed .card--left {
   flex: 3;
   display: flex;
   flex-direction: column;
