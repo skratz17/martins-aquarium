@@ -9,6 +9,7 @@
 .card--left,
 .card--reversed .card--right {
   flex: 1;
+  align-items: center;
 }
 
 .card--right,
@@ -19,7 +20,7 @@
 }
 
 .card__image {
-  width: 15rem;
+  width: 14rem;
 }
 
 .card__header {
@@ -30,16 +31,18 @@
 .card__content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: space-evenly;
   flex: 1 1 auto;
+  padding: 0.5rem;
 }
 
 .card__label {
   font-size: 0.8rem;
   color: #666;
+  display: block;
 }
 
 .card__content > * {
-  flex-basis: 40%;
+  flex-basis: 48%;
 }

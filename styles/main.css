@@ -22,9 +22,25 @@ body {
 /* Utilities */
 .container {
   padding: 2rem;
+  display: flex;
+}
+
+.col--left {
+  flex: 3;
+}
+
+.col--right {
+  flex: 1;
 }
 
 /* Specific component styles */
+.fish__species, 
+.fish__length, 
+.fish__location,
+.fish__diet {
+  font-size: 0.9rem;
+}
+
 .quote__text {
   flex-basis: 90%;
   text-align: center;

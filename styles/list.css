@@ -15,11 +15,11 @@
 }
 
 .list--2-col .list-item {
-  flex-basis: 45%;
+  flex-basis: 49%;
 }
 
 /* Force final element in list to left-align by creating pseudoelement at end of list */
 .list--2-col::after {
   content: "";
-  flex-basis: 45%;
+  flex-basis: 49%;
 }
