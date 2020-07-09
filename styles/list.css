@@ -5,13 +5,13 @@
 }
 
 .list__header {
-  flex: 100%;
+  flex-basis: 100%;
   text-align: center;
   font-size: 2rem;
 }
 
 .list--1-col .list-item {
-  flex: 100%;
+  flex-basis: 100%;
 }
 
 .list--2-col .list-item {
