@@ -7,6 +7,11 @@
   border-bottom: 3px solid #d3e2e1;
 }
 
+.header::after {
+  content: '';
+  flex: 1;
+}
+
 .header__logo-wrapper {
   flex: 1;
 }
