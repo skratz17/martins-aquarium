@@ -3,7 +3,8 @@
   padding: 0 1rem;
   display: flex;
   align-items: center;
-  background: #E3D3E4;
+  background: #B5C2C6;
+  border-bottom: 3px solid #d3e2e1;
 }
 
 .header__logo-wrapper {

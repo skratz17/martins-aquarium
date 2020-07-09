@@ -27,9 +27,12 @@ body {
 }
 
 .col--left {
+  background: #7a9996;
   flex: 3;
+  border-right: 2px solid #d3e2e1;
 }
 
 .col--right {
+  background: #b4c6b4;
   flex: 1;
 }
