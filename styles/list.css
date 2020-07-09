@@ -1,15 +1,19 @@
-.fish-list {
+.list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.fish-list__header {
+.list__header {
   flex: 100%;
   text-align: center;
   font-size: 2rem;
 }
 
-.fish {
+.list--1-col .list-item {
+  flex: 100%;
+}
+
+.list--2-col .list-item {
   flex-basis: 45%;
 }
