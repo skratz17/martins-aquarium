@@ -27,6 +27,7 @@ body {
 
 .col--left {
   flex: 3;
+  margin-right: 2rem;
 }
 
 .col--right {
@@ -49,4 +50,29 @@ body {
 
 .location__description {
   flex-basis: 90%;
+}
+
+.tip-list {
+  padding: 0.5rem;
+}
+
+.tip-list__text-list {
+  list-style-type: none;
+}
+
+.tip {
+  font-size: 0.9rem;
+}
+
+.tip::after {
+  content: '';
+  height: 1px;
+  display: block;
+  background: rgba(0,0,0,0.2);
+  width: 200px;
+  margin: 1rem auto;
+}
+
+.tip:last-child::after {
+  display: none;
 }
