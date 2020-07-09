@@ -11,6 +11,10 @@
   font-size: 2rem;
 }
 
+.list-item {
+  margin: 0.5rem;
+}
+
 .list--1-col .list-item {
   flex-basis: 100%;
 }
@@ -23,4 +27,5 @@
 .list--2-col::after {
   content: "";
   flex-basis: 48%;
+  margin: 0.5rem;
 }
