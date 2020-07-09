@@ -1,6 +1,13 @@
 .fish-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.fish-list__header {
+  flex: 100%;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .fish {
