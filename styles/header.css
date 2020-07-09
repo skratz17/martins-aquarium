@@ -3,9 +3,10 @@
   padding: 0 1rem;
   display: flex;
   align-items: center;
+  background: #E3D3E4;
 }
 
-.header__logo {
+.header__logo-wrapper {
   flex: 1;
 }
 

@@ -1,0 +1,11 @@
+.location-list {
+  background: #664C43;
+}
+
+.location-list__header {
+  color: #fff;
+}
+
+.location__description {
+  flex-basis: 90%;
+}
