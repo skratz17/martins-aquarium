@@ -28,9 +28,9 @@ const fishCollection = [
     species: 'Blue Whale',
     length: 1176,
     location: 'Percy Priest Lake',
-    diet: ['Krill'],
+    diet: ['Krill', 'Plankton'],
     image: './assets/fish/blueWhale.jpeg'
   }
 ];
 
-export default fishCollection;
+export const useFish = () => JSON.parse(JSON.stringify(fishCollection));
