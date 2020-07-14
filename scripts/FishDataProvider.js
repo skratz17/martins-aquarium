@@ -1,12 +1,36 @@
-const fishCollection = [];
-
-const addFish = (name, species, length, location, image, ...diet) => {
-  fishCollection.push({ name, species, length, location, image, diet });
-}
-
-addFish('Sharky Guy', 'Great White Shark', 240, 'Pacific Ocean', './assets/fish/greatWhiteShark.jpeg', 'Flesh');
-addFish('Martin (No Relation)', 'Marlin', 184, 'Caribbean Sea', './assets/fish/marlin.jpeg', 'Plankton');
-addFish('Katana', 'Swordfish', 120, 'Indian Ocean', 'Shrimp', './assets/fish/swordfish.jpeg', 'Krill');
-addFish('BigBoi', 'Blue Whale', 1176, 'Percy Priest Lake', 'Krill', './assets/fish/blueWhale.jpeg', 'Plankton');
+const fishCollection = [
+  {
+    name: 'Sharky Guy',
+    species: 'Great White Shark',
+    length: 240,
+    location: 'Pacific Ocean',
+    diet: ['Flesh'],
+    image: './assets/fish/greatWhiteShark.jpeg'
+  },
+  {
+    name: 'Martin (No Relation)',
+    species: 'Marlin',
+    length: 192,
+    location: 'Caribbean Sea',
+    diet: ['Plankton'],
+    image: './assets/fish/marlin.jpeg'
+  },
+  {
+    name: 'Katana',
+    species: 'Swordfish',
+    length: 120,
+    location: 'Indian Ocean',
+    diet: ['Shrimp'],
+    image: './assets/fish/swordfish.jpeg'
+  },
+  {
+    name: 'BigBoi',
+    species: 'Blue Whale',
+    length: 1176,
+    location: 'Percy Priest Lake',
+    diet: ['Krill'],
+    image: './assets/fish/blueWhale.jpeg'
+  }
+];
 
 export default fishCollection;
