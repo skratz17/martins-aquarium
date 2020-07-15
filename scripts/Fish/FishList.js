@@ -1,6 +1,6 @@
 import { useFish } from './FishDataProvider.js';
 import { Fish } from './Fish.js';
-
+ 
 export const FishList = () => {
   const domNode = document.querySelector('.col--left');
 
