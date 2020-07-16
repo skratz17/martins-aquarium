@@ -103,4 +103,4 @@ export const useNormalFish = () => {
   const normalFish = fishCollection.filter(fish => fish.length % 3 !== 0 && fish.length % 5 !== 0);
 
   return JSON.parse(JSON.stringify(normalFish));
-}
+};
